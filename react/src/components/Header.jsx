@@ -22,6 +22,7 @@ const Header = () => {
             <p className="text-[#F8F5F2]">Sip, savor, and stay invigorated</p>
           </div>
         </header>
+        {/* component ProducList */}
         <ProductList />
       </div>
     </div>
