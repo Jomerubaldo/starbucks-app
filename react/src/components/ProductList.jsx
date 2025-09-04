@@ -112,14 +112,14 @@ const ProductList = () => {
               alt={selectedProduct.name}
               className="w-48 h-48 object-cover my-4"
             />
-            <p className="text-gray-600 mt-2 pt-5 pl-5">
-              <span className="text-3xl font-bold text-black">
+            <div className="text-gray-600 mt-2 pt-5 pl-5">
+              <h1 className="text-3xl font-bold text-black">
                 {selectedProduct.name}
-              </span>{' '}
+              </h1>
               <br />
-              <span className="text-2xl">3 calories</span> <br />
+              <p className="text-2xl">3 calories</p> <br />
               {selectedProduct.description}
-            </p>
+            </div>
           </div>
           <p className="text-gray-700">{selectedProduct.price}</p>
           <button
