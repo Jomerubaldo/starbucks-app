@@ -1,9 +1,9 @@
-import Practice from './components/practice';
+import UseState from "./hooks/UseState";
 
 function App() {
   return (
     <>
-      <Practice />
+      <UseState />
     </>
   );
 }

@@ -1,6 +1,4 @@
-import ProductList from './ProductList';
-
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="min-h-dvh bg-gradient-to-b from-[#6F4E37] via-[#A67B5B] to-[#ECB176]">
       <div className="mx-auto max-w-5xl p-4 md:p-8">
@@ -22,8 +20,7 @@ const Header = () => {
             <p className="text-[#F8F5F2]">Sip, savor, and stay invigorated</p>
           </div>
         </header>
-        {/* component ProducList */}
-        <ProductList />
+        <div>{props.children}</div>
       </div>
     </div>
   );

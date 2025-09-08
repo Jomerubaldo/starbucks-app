@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 const ProductList = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const products = [
